@@ -13,7 +13,7 @@ def nao_entre_em_panico():
     p = 1
     primos = "2,"
 
-    while p < end
+    while p < end :
         divisor = 1
         for i in range(2, numero) :
             if numero % i == 0 :
