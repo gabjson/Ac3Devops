@@ -20,7 +20,7 @@ def nao_entre_em_panico():
                 divisor = 0
                 break
         if (divisor) :
-            divisor = primo + str(numero) + ", "
+            primos = primo + str(numero) + ", "
             p += 1
             if (p % 10 == 0) :
                 primos = primos + "<br>"
