@@ -7,10 +7,25 @@ app = Flask(__name__)
 @app.route('/')
 def nao_entre_em_panico():
 
+    end = 100
 
-    primos = "Tudo vai dar certo caros alunos!"
+    c = 1
+    p = 1
+    primos = "2,"
 
-
+    while p < end
+        divisor = 1
+        for i in range(2, numero) :
+            if numero % i == 0 :
+                divisor = 0
+                break
+        if (divisor) :
+            divisor = primo + str(numero) + ", "
+            p += 1
+            if (p % 10 == 0) :
+                primos = primos + "<br>"
+        numero +=1
+        
     return primos
 
 if __name__ == "__main__":
