@@ -11,6 +11,8 @@ def nao_entre_em_panico():
 
     c = 1
     p = 1
+    numero = 3
+    
     primos = "2,"
 
     while p < limite :
@@ -20,7 +22,7 @@ def nao_entre_em_panico():
                 ehprimo = 0
                 break
         if (ehprimo) :
-            primos = primo + str(numero) + ","
+            primos = primos + str(numero) + ","
             p += 1
             if (p % 10 == 0) :
                 primos = primos + "<br>"
